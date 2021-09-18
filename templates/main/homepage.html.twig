@@ -1,0 +1,45 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+
+    <div class="cover">
+        <img src="{{ asset('images/women-1.png') }}">
+        <div class="cover-text">
+            <h2>Minimalist design for smart people</h2>
+            <a href="#">SHOP NOW</a>
+        </div>
+    </div>
+
+    <div class="news">
+        <div class="magazine">
+            <h4>NEWS</h4>
+            <h3>Subscribe to our monthly magazine</h3>
+            <img src="{{ asset('images/magazine-cover.png') }}">
+        </div>
+        <div class="on-sale">
+            <h4>ON SALE</h4>
+            <h2>20% Discount on Men's Shirts</h2>
+            <a href="#">EXPLORE</a>
+        </div>
+    </div>
+
+    <div class="other">
+        <div class="other-child">
+            <h4>NEWSLETTER</h4>
+            <form>
+                <input type="text" placeholder="Sign up">
+            </form>
+        </div>
+        <div class="other-child">
+            <h4>CONNECT</h4>
+            <a href="#">TanausuFdP's Github</a><br>
+            <a href="#">TanausuFdP's LinkedIn</a>
+        </div>
+        <div class="other-child">
+            <h4>INFO</h4>
+            <a href="#">Contact</a><br>
+            <a href="#">Shipping / Returns</a>
+        </div>
+    </div>
+
+{% endblock %}
